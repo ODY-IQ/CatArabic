@@ -1,6 +1,6 @@
-FROM thejmthon/jmbot:slim-buster
+FROM ODY-IQ/CatArabic:slim-buster
 
-RUN git clone https://github.com/thejmthon/jmbot.git /root/jmbot
+RUN git clone https://github.com/ODY-IQ/CatArabic.git /root/jmbot
 
 WORKDIR /root/jmbot
 
